@@ -256,10 +256,46 @@ window.APP_DATA.mapDefault = [
     label: "Жим лёжа на свободных рычагах",
     status: "Проверено",
     updatedAt: "2026-09-20"
+  },
+    {
+    id: "p22",
+    pointNumber: 22,
+    trainerId: "MB7.55E",
+    row: 3,
+    col: 0,
+    x: 93,
+    y: 39,
+    label: "Вертикальная тяга с конвергенцией стоя",
+    status: "Не проверено",
+    updatedAt: "2026-09-24"
+  },
+  {
+    id: "p23",
+    pointNumber: 23,
+    trainerId: "MB7.67E",
+    row: 3,
+    col: 1,
+    x: 29,
+    y: 85,
+    label: "Трицепс",
+    status: "Не проверено",
+    updatedAt: "2026-09-24"
+  },
+  {
+    id: "p24",
+    pointNumber: 24,
+    trainerId: "MB7.73E",
+    row: 3,
+    col: 2,
+    x: 43,
+    y: 85,
+    label: "Гравитрон",
+    status: "Не проверено",
+    updatedAt: "2026-09-24"
   }
 ];
 
 window.APP_DATA.mapMeta = {
-  lastFullUpdate: "2026-09-23",
-  totalPoints: 21
+  lastFullUpdate: "2026-09-24",
+  totalPoints: 24
 };
