@@ -14,8 +14,8 @@ window.APP_DATA.templates = {
   },
   back_arms: {
     focusId: "back_arms",
-    base: ["MB7.37.3E", "MB7.70E", "MB7.38.3E"], // Тяга к поясу, рычажная тяга, вертикальная тяга
-    extra: ["MB7.39.3E"], // Бицепс сидя
+    base: ["MB7.37.3E", "MB7.70E", "MB7.38.3E", "MB7.55E", "MB7.73E"], // Тяга к поясу, рычажная тяга, вертикальная тяга
+    extra: ["MB7.39.3E", "MB7.67E"], // Бицепс сидя
     // Мультиштанга включается только вручную из каталога, после проверки конструкции —
     // не входит в автоматическую подборку до тех пор, пока needsReview === true.
     optionalReviewRequired: ["MB7.68E"]
@@ -29,9 +29,9 @@ window.APP_DATA.templates = {
   full_body: {
     focusId: "full_body",
     legsChoices: ["MB7.65E", "MB7.74"],
-    pullChoices: ["MB7.37.3E", "MB7.70E", "MB7.38.3E"],
+    pullChoices: ["MB7.37.3E", "MB7.70E", "MB7.38.3E", "MB7.55E", "MB7.73E"],
     pressChoices: ["MB7.30E", "MB7.79E", "MB7.30.3E", "MB7.64E"],
-    armsShouldersChoices: ["MB7.29E", "MB7.63E", "MB7.32E", "MB7.39.3E"]
+    armsShouldersChoices: ["MB7.29E", "MB7.63E", "MB7.32E", "MB7.39.3E", "MB7.67E"]
   },
   light: {
     focusId: "light",
